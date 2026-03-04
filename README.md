@@ -1,7 +1,7 @@
 # PyTorch DataLoader Microbenchmark & Darshan I/O Analysis
 
 ## Author
-**Rohit S** — GSoC 2026 Evaluation Task  
+**Rohit S**
 
 ## Project Structure
 
