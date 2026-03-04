@@ -1,4 +1,4 @@
-# HEP-CCE gsoc '26 | PyTorch DataLoader Microbenchmark & Darshan I/O Analysis
+# HEP-CCE GSoC '26 | PyTorch DataLoader Microbenchmark & Darshan I/O Analysis
 
 ## Author
 **Rohit S**
@@ -32,13 +32,13 @@
 # Create a virtual environment (recommended)
 python -m venv venv
 
-# Activate it
+# Activate the virtual environment
 # Windows:
 venv\Scripts\activate
 # Linux/macOS:
 source venv/bin/activate
 
-# Install dependencies
+# Install the dependencies
 pip install -r requirements.txt
 ```
 
