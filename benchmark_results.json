@@ -1,0 +1,53 @@
+{
+  "config": {
+    "data_dir": "./synthetic_data",
+    "batch_size": 64,
+    "num_shards": 10,
+    "samples_per_file": 3500,
+    "total_samples": 35000,
+    "pytorch_version": "2.6.0+cu124",
+    "cuda_available": true
+  },
+  "results": [
+    {
+      "num_workers": 1,
+      "batch_size": 64,
+      "total_samples": 35000,
+      "num_batches": 547,
+      "epoch_time_sec": 26.8133,
+      "throughput_samples_per_sec": 1305.32,
+      "scaling_efficiency_pct": 100.0,
+      "speedup": 1.0
+    },
+    {
+      "num_workers": 2,
+      "batch_size": 64,
+      "total_samples": 35000,
+      "num_batches": 547,
+      "epoch_time_sec": 21.5565,
+      "throughput_samples_per_sec": 1623.64,
+      "scaling_efficiency_pct": 62.19,
+      "speedup": 1.24
+    },
+    {
+      "num_workers": 4,
+      "batch_size": 64,
+      "total_samples": 35000,
+      "num_batches": 547,
+      "epoch_time_sec": 25.4461,
+      "throughput_samples_per_sec": 1375.46,
+      "scaling_efficiency_pct": 26.34,
+      "speedup": 1.05
+    },
+    {
+      "num_workers": 8,
+      "batch_size": 64,
+      "total_samples": 35000,
+      "num_batches": 547,
+      "epoch_time_sec": 30.1485,
+      "throughput_samples_per_sec": 1160.92,
+      "scaling_efficiency_pct": 11.12,
+      "speedup": 0.89
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "1": {
+    "ranks": 1,
+    "threads": 1,
+    "job_id": 4025373,
+    "executable": "pyTorch_training.py --batch_size 64 --epochs 10 --threads 1",
+    "nprocs": 1,
+    "runtime_sec": 244.3957,
+    "start_time": "2026-02-25 03:10:34",
+    "end_time": "2026-02-25 03:14:38",
+    "posix_files_accessed": 8,
+    "posix_bytes_read_MiB": 52.58,
+    "posix_bytes_written_KiB": 226.43,
+    "posix_io_perf_MiBps": 126.61,
+    "posix_read_only_files": 5,
+    "posix_write_only_files": 2,
+    "posix_rw_files": 0,
+    "posix_avg_file_size_MiB": 6.59,
+    "posix_max_file_size_MiB": 44.86,
+    "stdio_files": 1,
+    "stdio_bytes_read": 2,
+    "stdio_bytes_written": 0,
+    "stdio_perf_MiBps": 0.02,
+    "common_access_sizes": [
+      [
+        80,
+        255
+      ],
+      [
+        84,
+        247
+      ],
+      [
+        88,
+        245
+      ],
+      [
+        82,
+        245
+      ]
+    ],
+    "posix_data_KiB": 0.69,
+    "dxt_posix_data_KiB": 31.36,
+    "heatmap_data_KiB": 0.45
+  },
+  "2": {
+    "ranks": 2,
+    "threads": 2,
+    "job_id": 1347640,
+    "executable": "pyTorch_training.py --batch_size 64 --epochs 10 --threads 2",
+    "nprocs": 1,
+    "runtime_sec": 298.6351,
+    "start_time": "2026-02-26 19:46:52",
+    "end_time": "2026-02-26 19:51:51",
+    "posix_files_accessed": 8,
+    "posix_bytes_read_MiB": 52.58,
+    "posix_bytes_written_KiB": 213.37,
+    "posix_io_perf_MiBps": 242.81,
+    "posix_read_only_files": 5,
+    "posix_write_only_files": 2,
+    "posix_rw_files": 0,
+    "posix_avg_file_size_MiB": 6.59,
+    "posix_max_file_size_MiB": 44.86,
+    "stdio_files": 1,
+    "stdio_bytes_read": 2,
+    "stdio_bytes_written": 0,
+    "stdio_perf_MiBps": 0.01,
+    "common_access_sizes": [
+      [
+        84,
+        235
+      ],
+      [
+        88,
+        231
+      ],
+      [
+        78,
+        230
+      ],
+      [
+        90,
+        228
+      ]
+    ],
+    "posix_data_KiB": 0.7,
+    "dxt_posix_data_KiB": 29.81,
+    "heatmap_data_KiB": 0.45
+  },
+  "4": {
+    "ranks": 4,
+    "threads": 4,
+    "job_id": 1348084,
+    "executable": "pyTorch_training.py --batch_size 64 --epochs 10 --threads 4",
+    "nprocs": 1,
+    "runtime_sec": 209.871,
+    "start_time": "2026-02-26 19:51:51",
+    "end_time": "2026-02-26 19:55:21",
+    "posix_files_accessed": 8,
+    "posix_bytes_read_MiB": 52.58,
+    "posix_bytes_written_KiB": 211.19,
+    "posix_io_perf_MiBps": 507.56,
+    "posix_read_only_files": 5,
+    "posix_write_only_files": 2,
+    "posix_rw_files": 0,
+    "posix_avg_file_size_MiB": 6.59,
+    "posix_max_file_size_MiB": 44.86,
+    "stdio_files": 1,
+    "stdio_bytes_read": 2,
+    "stdio_bytes_written": 0,
+    "stdio_perf_MiBps": 0.02,
+    "common_access_sizes": [
+      [
+        84,
+        235
+      ],
+      [
+        78,
+        234
+      ],
+      [
+        88,
+        232
+      ],
+      [
+        90,
+        228
+      ]
+    ],
+    "posix_data_KiB": 0.69,
+    "dxt_posix_data_KiB": 29.11,
+    "heatmap_data_KiB": 0.42
+  },
+  "8": {
+    "ranks": 8,
+    "threads": 8,
+    "job_id": 4025742,
+    "executable": "pyTorch_training.py --batch_size 64 --epochs 10 --threads 8",
+    "nprocs": 1,
+    "runtime_sec": 215.1849,
+    "start_time": "2026-02-25 03:14:39",
+    "end_time": "2026-02-25 03:18:14",
+    "posix_files_accessed": 8,
+    "posix_bytes_read_MiB": 52.58,
+    "posix_bytes_written_KiB": 212.52,
+    "posix_io_perf_MiBps": 474.52,
+    "posix_read_only_files": 5,
+    "posix_write_only_files": 2,
+    "posix_rw_files": 0,
+    "posix_avg_file_size_MiB": 6.59,
+    "posix_max_file_size_MiB": 44.86,
+    "stdio_files": 1,
+    "stdio_bytes_read": 2,
+    "stdio_bytes_written": 0,
+    "stdio_perf_MiBps": 0.02,
+    "common_access_sizes": [
+      [
+        84,
+        235
+      ],
+      [
+        88,
+        232
+      ],
+      [
+        78,
+        229
+      ],
+      [
+        90,
+        228
+      ]
+    ],
+    "posix_data_KiB": 0.7,
+    "dxt_posix_data_KiB": 29.37,
+    "heatmap_data_KiB": 0.42
+  },
+  "32": {
+    "ranks": 32,
+    "threads": 32,
+    "job_id": 4027483,
+    "executable": "pyTorch_training.py --batch_size 64 --epochs 10 --threads 32",
+    "nprocs": 1,
+    "runtime_sec": 228.3162,
+    "start_time": "2026-02-25 03:23:20",
+    "end_time": "2026-02-25 03:27:09",
+    "posix_files_accessed": 8,
+    "posix_bytes_read_MiB": 52.58,
+    "posix_bytes_written_KiB": 212.18,
+    "posix_io_perf_MiBps": 473.5,
+    "posix_read_only_files": 5,
+    "posix_write_only_files": 2,
+    "posix_rw_files": 0,
+    "posix_avg_file_size_MiB": 6.59,
+    "posix_max_file_size_MiB": 44.86,
+    "stdio_files": 1,
+    "stdio_bytes_read": 2,
+    "stdio_bytes_written": 0,
+    "stdio_perf_MiBps": 0.02,
+    "common_access_sizes": [
+      [
+        75,
+        237
+      ],
+      [
+        78,
+        236
+      ],
+      [
+        84,
+        232
+      ],
+      [
+        90,
+        229
+      ]
+    ],
+    "posix_data_KiB": 0.7,
+    "dxt_posix_data_KiB": 29.51,
+    "heatmap_data_KiB": 0.46
+  }
+}
