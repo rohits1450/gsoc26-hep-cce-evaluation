@@ -1,5 +1,7 @@
 # HEP-CCE GSoC '26 | PyTorch DataLoader Microbenchmark & Darshan I/O Analysis
 
+> 📄 **Report:** [View/Download Report (PDF)](./HEPCCE-REPORT-GSOC26-ROHIT_S.pdf)
+
 ## Author
 **Rohit S**
 
